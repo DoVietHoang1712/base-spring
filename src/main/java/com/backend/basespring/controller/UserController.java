@@ -12,11 +12,11 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
-    @GetMapping("")
+    @GetMapping("test")
     public String test() {
         return "123";
     }
-    @PostMapping("")
+    @PostMapping("te")
     public String createUser(@RequestBody User body) {
         return null;
     }
